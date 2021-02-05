@@ -1,0 +1,180 @@
+.background{
+    position: relative;
+    height: 1830px;
+    width: 1200px;
+    background-image: url(/IMG/pic1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    border: teal;
+    border-style: double;
+    border-width: 20px;
+    
+
+}
+
+header{
+    height: 100px;
+    width: 1160px;
+    background-color: aqua;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+nav{
+    height: 70px;
+    width: 1160px;
+    background-color: black;
+    color: chartreuse;
+    position: sticky;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.navbar{
+    width: 75%;
+    height: 90%;
+    position: relative;
+    top: 5%;
+    background-color: black;
+
+ 
+    
+}
+
+.logo{
+    /* display: block; */
+    height: 100%;
+    width: 40px;
+
+}
+
+.logo:hover{
+    -webkit-filter: invert(100%) !important;
+    
+}
+
+.logo_con{
+    height: 100%;
+    width: 100%;
+    display: table;
+    float: left;
+    background-image: url(/IMG/pic1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+
+}
+
+.links {
+    height: 90%;
+    width: 50%;
+    float: right;
+    position: relative;
+    bottom: 90%;
+    left: 20%;
+}
+
+
+.home{
+    height: 100%;
+    width: 90px;
+    display: inline-block;
+    background-color: black;
+}
+
+.home:hover{
+    background-color: white;
+    color: black;
+}
+
+.about{
+    height: 100%;
+    width: 90px;
+    display: inline-block;
+    background-color: black;
+}
+
+.about:hover{
+    background-color: white;
+    color: black;
+}
+
+.forum{
+    height: 100%;
+    width: 90px;
+    display: inline-block;
+    background-color: black;
+}
+
+.forum:hover{
+    background-color: white;
+    color: black;
+}
+
+.left{
+    float:left;
+    width: 48%;
+}
+
+section{
+    height: 200px;
+    background-color: crimson;
+    color: darkblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+article{
+    background-color: darkgoldenrod;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+aside {
+    height: 410px;
+    width: 48%;
+    background-color: rgb(134, 30, 30);
+    color: chartreuse;
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px chartreuse;
+}
+
+footer
+{
+    height: 100px;
+    width: 1160px;
+    background-color: darkgreen;
+    clear: both;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+a:link{
+    color: purple;
+    text-decoration: none;
+}
+
+a:visited{
+    color:red;
+}
