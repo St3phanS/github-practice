@@ -119,6 +119,40 @@ nav{
     color: black;
 }
 
+.row1{
+    width: 1160px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.row2{
+    width: 1160px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-left: 20px;
+
+}
+.column1{
+    width: 48%;
+    height: 100px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.column2{
+    width: 30%;
+    height: 100px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+
+
 .left{
     float:left;
     width: 48%;
